@@ -13,7 +13,7 @@ module.exports = (robot) ->
   robot.hear /badger/i, (msg) ->
     msg.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
 
-  robot.hear /foo/i, (msg) ->
+  robot.respond /foo/i, (msg) ->
     msg.reply "Foo"
 
   robot.respond /open the (.*) doors/i, (msg) ->
