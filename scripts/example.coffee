@@ -13,9 +13,11 @@ module.exports = (robot) ->
   robot.hear /badger/i, (msg) ->
     msg.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
 
+  robot.hear /foo/i, (msg) ->
+    msg.reply "Foo"
+
   robot.respond /open the (.*) doors/i, (msg) ->
     doorType = msg.match[1]
-    msg.send "test message"
     if doorType is "pod bay"
       msg.reply "I'm afraid I can't let you do that."
     else
