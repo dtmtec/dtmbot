@@ -20,7 +20,8 @@
     "hubot": "^2.11.0",
     "hubot-slack": "^3.2.1",
     "hubot-calculator": ">= 0.4.0",
-    "hubot-devops-reactions": ">= 1.0.2"
+    "hubot-devops-reactions": ">= 1.0.2",
+    "hubot-codinglove": "git://github.com/cefigueiredo/hubot-codinglove#all_we_need_is_love" 
   },
   "engines": {
     "node": "0.10.x"
